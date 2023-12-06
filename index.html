@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;1,9..40,100;1,9..40,200&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Search Engine</title>
   </head>
-  <body>
+  <body title="images from unsplash.com">
+    <h1>Image search engine</h1>
+    <form id="search-form">
+      <input type="text" id="search-box" placeholder="search images" />
+      <button>Search</button>
+    </form>
+    <div id="search-results"></div>
+    <button id="show-more-btn">ShowMore</button>
     <script src="script.js"></script>
   </body>
 </html>
